@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>ladesign</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+
+<header class="header">
+	<div class="header_logo">
+		<a href="#"><img src="img/logo.png" alt="Logo"></a>
+	</div>
+		<div class="list">
+			<ul class="nav_list">
+				<li><a href="#">Main</a></li>
+				<li><a href="#">About us</a></li>
+				<li><a href="#">Contacts</a></li>
+			</ul>
+			<ul class="burger_list" id="dev">
+				<li><a href="#">Main</a></li>
+				<li><a href="#">About us</a></li>
+				<li><a href="#">Contacts</a></li>
+			</ul>
+				<div class="burger_menu" onclick='burger()'>
+					<div class="line"></div>
+					<div class="line"></div>
+					<div class="line"></div>
+				</div>
+		</div>
+</header>
+
+<div class="intro">
+	<div class="text_intro">
+		<h1>Interior design studio</h1>
+		<h5>Elena Alexeeva</h5>
+	</div>
+</div>
+
+<div class="portfolio">
+	<div class="categories">
+		<ul>
+			<li><a href="#" data-filter="all">All<span>10</span></a></li>
+			<li><a href="#" data-filter="apartments">Apartments<span>3</span></a></li>
+			<li><a href="#" data-filter="houses">Houses<span>5</span></a></li>
+			<li><a href="#" data-filter="commercial">Commercial space<span>2</span></a></li>
+		</ul>
+	</div>
+	<div class="content">
+
+<div class="item1 hover_block" data-cat="houses">
+	<a href="#" class="descr">
+		<span>Lorem<br>Lorem, ipsum.</span>
+	</a>
+	<a href="#" class="mask"></a>
+	<a href="#"><img src="img/content/room-1.jpg" alt="Images"></a>
+</div>
+
+<div class="item2 hover_block" data-cat="apart">
+	<a href="#" class="descr">
+		<span>Lorem<br>Lorem, ipsum.</span>
+	</a>
+	<a href="#" class="mask"></a>
+	<a href="#"><img src="img/content/room-2.jpg"alt="Images"></a>
+</div>
+
+<div class="item3 hover_block" data-cat="commer">
+	<a href="#" class="descr">
+		<span>Lorem<br>Lorem, ipsum.</span>
+	</a>
+	<a href="#" class="mask"></a>
+	<a href="#"><img src="img/content/room-3.jpg"alt="Images"></a>
+</div>
+
+<div class="item4 hover_block" data-cat="houses">
+	<a href="#" class="descr">
+		<span>Lorem<br>Lorem, ipsum.</span>
+	</a>
+	<a href="#" class="mask"></a>
+	<a href="#"><img src="img/content/room-4.jpg"alt="Images"></a>
+</div>
+
+<div class="item5 hover_block" data-cat="houses">
+	<a href="#" class="descr">
+		<span>Lorem<br>Lorem, ipsum.</span>
+	</a>
+	<a href="#" class="mask"></a>
+	<a href="#"><img src="img/content/room-5.jpg"alt="Images"></a>
+</div>
+
+<div class="item6 hover_block" data-cat="houses">
+	<a href="#" class="descr">
+		<span>Lorem<br>Lorem, ipsum.</span>
+	</a>
+	<a href="#" class="mask"></a>
+	<a href="#"><img src="img/content/room-6.jpg"alt="Images"></a>
+</div>
+
+<div class="item7 hover_block" data-cat="apart">
+	<a href="#" class="descr">
+		<span>Lorem<br>Lorem, ipsum.</span>
+	</a>
+	<a href="#" class="mask"></a>
+	<a href="#"><img src="img/content/room-7.jpg"alt="Images"></a>
+</div>
+
+<div class="item8 hover_block" data-cat="commer">
+	<a href="#" class="descr">
+		<span>Lorem<br>Lorem, ipsum.</span>
+	</a>
+	<a href="#" class="mask"></a>
+	<a href="#"><img src="img/content/room-8.jpg"alt="Images"></a>
+</div>
+
+<div class="item9 hover_block" data-cat="commer">
+	<a href="#" class="descr">
+		<span>Lorem<br>Lorem, ipsum.</span>
+	</a>
+	<a href="#" class="mask"></a>
+	<a href="#"><img src="img/content/room-9.jpg"alt="Images"></a>
+</div>
+
+<div class="item10 hover_block" data-cat="apart">
+	<a href="#" class="descr">
+		<span>Lorem<br>Lorem, ipsum.</span>
+	</a>
+	<a href="#" class="mask"></a>
+	<a href="#"><img src="img/content/room-10.jpg"alt="Images"></a>
+</div>
+</div>
+</div>
+
+<!------------------Footer------------------>
+<div class="footer">
+	<div class="content_footer">
+	<ul>
+		<li><a href="#">Facebook</a></li>
+		<li><a href="#">Houzz</a></li>
+		<li><a href="#">Vkontakte</a></li>
+		<li><a href="#">Instagram</a></li>
+	</ul>
+	<span>© 2020 ladesign, all rights reserved</span>
+</div>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
